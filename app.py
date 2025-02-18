@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv, find_dotenv
 from langchain_community.document_loaders import PyPDFLoader, TextLoader, WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import OpenAIEmbeddings
@@ -10,8 +9,8 @@ from langchain.chains import ConversationalRetrievalChain
 import bs4
 
 # Load environment variables
-load_dotenv(find_dotenv('keys.env', usecwd=True))
-OPENAI_API_KEY = os.getenv("api_key_openai")
+
+OPENAI_API_KEY = "<YOUR_OPENAI_API_KEY_HERE>"
 
 def initialize_session_state():
     """Initialize session state variables"""
