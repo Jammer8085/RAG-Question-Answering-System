@@ -15,11 +15,9 @@ A Streamlit-based chatbot application that allows users to upload documents and 
 
 ### 1. Document Upload Interface
 ![Upload Interface](docs/upload_document.jpg)
-*Initial interface with file upload button for PDF and TXT files*
 
 ### 2. Chat Interface
 ![Chat Interface](docs/demo_page_2.jpg)
-*Interactive chat interface showing Q&A with the uploaded document*
 
 ## Setup
 
