@@ -44,7 +44,6 @@ venv\Scripts\activate
 ```
 
 (Linux)
-```
 
 ```bash
 python -m venv venv
