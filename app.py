@@ -37,7 +37,7 @@ def load_document(uploaded_file):
     if file_extension == ".pdf":
         loader = PyPDFLoader(file_path)
     elif file_extension == ".txt":
-        loader = TextLoader(file_path)
+        loader = TextLoader(file_path, encoding="utf-8")
     else:
         raise ValueError("Unsupported file type")
         
