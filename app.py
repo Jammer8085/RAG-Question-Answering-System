@@ -80,7 +80,7 @@ def main():
     st.title("Document Chat Assistant 📚")
     
     # File upload section
-    uploaded_file = st.file_uploader("Upload a document", type=["pdf", "txt"])
+    uploaded_file = st.file_uploader("Upload a document (.pdf or .txt file)", type=["pdf", "txt"])
     
     if uploaded_file and not st.session_state.db:
         with st.spinner("Processing document..."):
